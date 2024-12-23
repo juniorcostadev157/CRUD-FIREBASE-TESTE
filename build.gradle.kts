@@ -44,6 +44,9 @@ dependencies {
 
     implementation("com.google.firebase:firebase-admin:9.1.1")
 
+    implementation("io.netty:netty-tcnative-boringssl-static:2.0.58.Final")
+
+
     implementation("com.google.cloud:google-cloud-firestore:3.11.0")
 
     implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
