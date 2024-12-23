@@ -1,11 +1,10 @@
-# Use a imagem do Java 17 como base
 FROM amazoncorretto:17-alpine
 
 # Define o diretório de trabalho
 WORKDIR /app
 
-# Copia o JAR gerado pelo Spring Boot para o container
-COPY build/libs/*.jar app.jar
+# Copia o JAR gerado para o container
+COPY build/libs/CrudFirebaseEstudo-0.0.1-SNAPSHOT.jar app.jar
 
 # Expõe a porta 8080
 EXPOSE 8080
